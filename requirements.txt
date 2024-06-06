@@ -1,0 +1,8 @@
+Requerimientos para el proyecto
+
+1. Identificación de la complejidad de los datos, análisis estadístico, limpieza y transformación
+2. Visualización de datos
+3. Modelado de datos
+4. Evaluación de datos
+5. Interpretación de datos
+6. Presentación de datos
