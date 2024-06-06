@@ -50,8 +50,8 @@ El objetivo del proyecto es crear un modelo de Machine Learning que permita cara
 │   ├── 03-Evaluacion-Interpretacion.ipynb
 ├── Data
 │   ├── dataset.xlsx
-├── Results
 │   ├── cleaned_dataset.csv
+├── Results
 │   ├── clusters.csv
 ├── README.md
 │   requerimientos.txt
