@@ -46,8 +46,7 @@ El objetivo del proyecto es crear un modelo de Machine Learning que permita cara
 ```
 ├── Notebooks
 │   ├── 01-Preprocesamiento.ipynb
-│   ├── 02-Modelado.ipynb
-│   ├── 03-Evaluacion-Interpretacion.ipynb
+│   ├── 02-Modelado-Evaluacion-Interpretacion.ipynb
 ├── Data
 │   ├── dataset.xlsx
 │   ├── cleaned_dataset.csv
