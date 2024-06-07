@@ -1,6 +1,6 @@
 # Proyecto-CyAD
 
-Proyecto del modulo 3 de analitica de datos
+Proyecto del diplomado de analitica y ciencia de datos
 
 ## Integrantes
 
