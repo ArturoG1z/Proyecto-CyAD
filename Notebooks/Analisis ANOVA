@@ -1,0 +1,113 @@
+1. **Estadístico F**: Este valor indica la relación de la variación entre los grupos (clusters) a la variación dentro de los grupos. Un valor F alto sugiere que hay una diferencia significativa entre los grupos para esa característica.
+
+2. **Valor p**: Este valor indica la probabilidad de que las diferencias observadas entre los grupos hayan ocurrido por azar. Un valor p bajo (generalmente < 0.05) sugiere que hay una diferencia significativa entre los grupos para esa característica.
+
+### Interpretación General:
+
+Para todas las características analizadas, los valores p son extremadamente bajos (mucho menores que 0.05), lo que sugiere que hay diferencias significativas entre los clusters para cada una de estas características.
+
+### Interpretación Específica por Característica:
+
+- **Feature: alumnos**
+  - Estadístico F: 190.80
+  - Valor p: 2.70e-71
+  - **Interpretación**: Existe una diferencia significativa en el número de alumnos entre los clusters.
+
+- **Feature: 1p_total_actividades_asignadas**
+  - Estadístico F: 304.84
+  - Valor p: 7.08e-105
+  - **Interpretación**: La cantidad total de actividades asignadas en el primer periodo difiere significativamente entre los clusters.
+
+- **Feature: 1p_total_actividades_evaluativas**
+  - Estadístico F: 340.51
+  - Valor p: 1.97e-114
+  - **Interpretación**: La cantidad de actividades evaluativas asignadas en el primer periodo muestra diferencias significativas entre los clusters.
+
+- **Feature: 1p_porcentaje_evidencias_calificadas**
+  - Estadístico F: 590.65
+  - Valor p: 5.24e-172
+  - **Interpretación**: El porcentaje de evidencias calificadas en el primer periodo es significativamente diferente entre los clusters.
+
+- **Feature: 1p_total_actividades_calificadas**
+  - Estadístico F: 907.12
+  - Valor p: 1.46e-228
+  - **Interpretación**: La cantidad de actividades calificadas en el primer periodo difiere significativamente entre los clusters.
+
+- **Feature: 1p_total_actividades_entregadas**
+  - Estadístico F: 848.19
+  - Valor p: 4.76e-219
+  - **Interpretación**: La cantidad de actividades entregadas en el primer periodo es significativamente diferente entre los clusters.
+
+- **Feature: 1p_porcentaje_evidencias_calificadas_tiempo**
+  - Estadístico F: 229.43
+  - Valor p: 3.08e-83
+  - **Interpretación**: El porcentaje de evidencias calificadas a tiempo en el primer periodo difiere significativamente entre los clusters.
+
+- **Feature: 1p_total_actividades_calificadas_tiempo**
+  - Estadístico F: 779.56
+  - Valor p: 1.93e-207
+  - **Interpretación**: La cantidad de actividades calificadas a tiempo en el primer periodo muestra diferencias significativas entre los clusters.
+
+- **Feature: 1p_porcentaje_aprobados**
+  - Estadístico F: 271.33
+  - Valor p: 1.62e-95
+  - **Interpretación**: El porcentaje de aprobados en el primer periodo es significativamente diferente entre los clusters.
+
+- **Feature: 2p_total_actividades_asignadas**
+  - Estadístico F: 350.87
+  - Valor p: 3.93e-117
+  - **Interpretación**: La cantidad total de actividades asignadas en el segundo periodo difiere significativamente entre los clusters.
+
+- **Feature: 2p_total_actividades_evaluativas**
+  - Estadístico F: 369.90
+  - Valor p: 5.22e-122
+  - **Interpretación**: La cantidad de actividades evaluativas asignadas en el segundo periodo muestra diferencias significativas entre los clusters.
+
+- **Feature: 2p_porcentaje_evidencias_calificadas**
+  - Estadístico F: 1231.47
+  - Valor p: 9.44e-275
+  - **Interpretación**: El porcentaje de evidencias calificadas en el segundo periodo es significativamente diferente entre los clusters.
+
+- **Feature: 2p_total_actividades_calificadas**
+  - Estadístico F: 974.01
+  - Valor p: 6.81e-239
+  - **Interpretación**: La cantidad de actividades calificadas en el segundo periodo difiere significativamente entre los clusters.
+
+- **Feature: 2p_total_actividades_entregadas**
+  - Estadístico F: 885.17
+  - Valor p: 4.58e-225
+  - **Interpretación**: La cantidad de actividades entregadas en el segundo periodo es significativamente diferente entre los clusters.
+
+- **Feature: 2p_porcentaje_evidencias_calificadas_tiempo**
+  - Estadístico F: 248.42
+  - Valor p: 6.91e-89
+  - **Interpretación**: El porcentaje de evidencias calificadas a tiempo en el segundo periodo difiere significativamente entre los clusters.
+
+- **Feature: 2p_total_actividades_calificadas_tiempo**
+  - Estadístico F: 700.26
+  - Valor p: 3.07e-193
+  - **Interpretación**: La cantidad de actividades calificadas a tiempo en el segundo periodo muestra diferencias significativas entre los clusters.
+
+- **Feature: 2p_porcentaje_aprobados**
+  - Estadístico F: 261.37
+  - Valor p: 1.17e-92
+  - **Interpretación**: El porcentaje de aprobados en el segundo periodo es significativamente diferente entre los clusters.
+
+- **Feature: total_actividades_calificadas**
+  - Estadístico F: 850.14
+  - Valor p: 2.27e-219
+  - **Interpretación**: La cantidad total de actividades calificadas muestra diferencias significativas entre los clusters.
+
+- **Feature: trabajos_por_calificar**
+  - Estadístico F: 105.24
+  - Valor p: 2.42e-42
+  - **Interpretación**: El número de trabajos por calificar es significativamente diferente entre los clusters.
+
+- **Feature: correos_enviados**
+  - Estadístico F: 35.72
+  - Valor p: 9.92e-16
+  - **Interpretación**: La cantidad de correos enviados muestra diferencias significativas entre los clusters.
+
+### Conclusión:
+
+Todas las características analizadas presentan diferencias significativas entre los clusters, lo cual sugiere que estos grupos tienen comportamientos distintos respecto a estas métricas. Este análisis puede ser útil para entender mejor las diferencias y similitudes entre los clusters en relación con cada característica.
