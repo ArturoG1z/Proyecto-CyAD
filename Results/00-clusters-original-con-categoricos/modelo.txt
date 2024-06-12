@@ -1,0 +1,26 @@
+'datos_categoricos'(1773, 7)'
+datos_numericos'(1773, 31)
+
+con CATEGORICOS
+
+KMEANS
+Coeficiente de silueta: 0.3132774582997706
+
+
+Componentes principales:
+array([[ 0.00174333,  0.01235176, -0.00041324, ..., -0.00371045,
+         0.        , -0.03692253],
+       [ 0.00277109,  0.0412211 ,  0.00031503, ..., -0.04540047,
+         0.        ,  0.24373288]])
+Varianza explicada por cada componente: [0.38206722 0.12242259]
+
+
+JERARQUICO
+Coeficiente de silueta: 0.3026446675281945
+
+array([[ 1.62074523e-03,  1.11837099e-02, -4.01843738e-04, ...,
+        -1.95770903e-03,  0.00000000e+00,  2.11957124e-01],
+       [ 2.87241244e-03,  4.12530077e-02,  2.26076149e-04, ...,
+        -4.99862662e-02,  0.00000000e+00, -2.77068309e-01]])
+Varianza explicada por cada componente: [0.39055699 0.1225855 ]
+
